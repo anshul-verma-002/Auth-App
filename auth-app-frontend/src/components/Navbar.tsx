@@ -34,7 +34,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex flex-col md:flex-row justify-around items-center md:h-14 gap-2 md:gap-0 py-2 md:py-0 dark:bg-slate-950 bg-white border-b dark:border-slate-800 border-slate-200 shadow-sm">
+    <nav className="flex flex-col md:flex-row justify-around items-center md:h-14 gap-4 md:gap-0 py-2 md:py-0 dark:bg-slate-950 bg-white border-b dark:border-slate-800 border-slate-200 shadow-sm">
       {/* Logo */}
       <div className="font-semibold flex gap-2 items-center">
         <span className="inline-flex items-center justify-center h-7 w-7 rounded-md bg-gradient-to-r from-blue-500 to-violet-500 text-white text-sm shadow-md">
