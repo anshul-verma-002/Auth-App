@@ -14,7 +14,6 @@ const Signup = () => {
     password: "",
   });
 
-  const [error, setError] = useState(null);
 
   const [loading, setLoading] = useState<boolean>(false);
 
