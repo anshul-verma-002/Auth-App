@@ -91,6 +91,7 @@ public class SecurityConfig {
             .requestMatchers("/api/v1/auth/login").permitAll()
             .requestMatchers("/api/v1/auth/refresh").permitAll()
             .requestMatchers("/api/v1/auth/logout").permitAll()
+            .requestMatchers("/api/v1/health").permitAll()
             .requestMatchers("/v3/api-docs/**", "/swagger-ui.html", "/swagger-ui/**").permitAll()
             .anyRequest().authenticated())
             
